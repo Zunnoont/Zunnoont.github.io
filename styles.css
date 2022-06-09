@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+section
 #top {
     scroll-behavior: smooth;
 }
@@ -38,7 +39,7 @@ header {
 }
 
 body {
-    background-color: #DBDCDA;
+    background-color:  #DBDCDA;
 }
 a {
     color: #4B4B4B;
@@ -105,7 +106,7 @@ div.content {
     text-align: center;
     background-position: center;
     background-color: #F9F9F9;
-    height: 350px;
+    height: 370px;
     width: 100%;
 
 }
@@ -126,7 +127,7 @@ div.content {
 }
 
 .email {
-    background: url(./email2.png) left center no-repeat;
+    background: url(./Images/email2.png) left center no-repeat;
     padding-left: 40px;
 }
 .contacts img {
@@ -134,7 +135,7 @@ div.content {
     height: 20px;
 }
 .degree {
-    background: url(./degree2.png) left center no-repeat;
+    background: url(./Images/degree2.png) left center no-repeat;
     padding-left: 40px;
     color: lightseagreen;
     font-weight: bold;
@@ -144,7 +145,7 @@ div.content {
     background-color: white;
     font-family: 'Exo 2', sans-serif;
     text-align: center;
-    height: 1200px;
+    height: 2000px;
     width: 60%;
     margin-left: 40px; 
     float: left;
@@ -182,7 +183,7 @@ div.content {
     background-position: center;
     text-align: center;
     width: 30%;
-    height: 250px;
+    height: 300px;
     float: right;
     text-align: center; 
 
@@ -195,7 +196,7 @@ div.content {
 
 }
 .python {
-    background: url(pythonimgresized.png) left center no-repeat;
+    background: url(./Images/pythonimgresized.png) left center no-repeat;
     background-size: auto;
     padding-left: 40px;
     color: lightseagreen;
@@ -203,32 +204,39 @@ div.content {
 
 }
 .c {
-    background: url(./c-logo_25x25.png) left center no-repeat;
+    background: url(./Images/c-logo_25x25.png) left center no-repeat;
     padding-left: 40px;
     color: lightseagreen;
     font-weight: bold;
 
 }
 .html {
-    background: url(./html_25x30.png) left center no-repeat;
+    background: url(./Images/html_25x30.png) left center no-repeat;
     padding-left: 40px;
     color: lightseagreen;
     font-weight: bold;
 
 }
 .css {
-    background: url(./css_1_30x30.png) left center no-repeat;
+    background: url(./Images/css_1_30x30.png) left center no-repeat;
     padding-left: 40px;
     color: lightseagreen;
     font-weight: bold;
 
 }
+.MIPS {
+    background: url(./Images/ASMIMG.png) left center no-repeat;
+    padding-left: 40px;
+    color: lightseagreen;
+    font-weight: bold;
+}
 .css-button-3d--green {
     text-decoration: none;
     min-width: 130px;
-    height: 40px;
-    color: #fff;
+    height: 45px;
+    color: darkslategray;
     padding: 5px 10px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -241,7 +249,7 @@ div.content {
     box-shadow: 0 5px #57cc99;
     text-align: center;
     vertical-align: middle;
-    margin: 40px;
+    margin: 10px;
     
     line-height: 40px;
   }
@@ -283,3 +291,132 @@ div.content {
     box-shadow: 0 0 #adb5bd;
     top: 5px;
   }
+.Contactme {
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-color: #DBDCDA;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    position: fixed;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    margin: 0 auto;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+.form-email {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.form-email input {
+    border: 1px solid #000;
+    width: 100%;
+    margin: top 5px;
+}
+.form-email label {
+    font-family: "Roboto Mono", monospace;
+}
+#firstname {
+    border: 2px solid lightseagreen;
+    font-size: medium;
+    padding: 10px;
+    font-family: "Roboto Mono", monospace;
+    border-radius: 5px;
+    width: 45%;
+}
+
+#lastname {
+    border: 2px solid lightseagreen;
+    font-size: medium;
+    padding: 10px;
+    font-family: "Roboto Mono", monospace;
+    border-radius: 5px;
+    width: 45%;
+
+}
+#email {
+    border: 2px solid lightseagreen;
+    font-size: medium;
+    padding: 10px;
+    font-family: "Roboto Mono", monospace;
+    border-radius: 5px;
+    width: 45%;
+
+}
+#message {
+    width: 45%;
+    border: 2px solid lightseagreen;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: medium;
+    background-color: white;
+
+}
+button[type = "Submit"] {
+    width: 45%;
+    background-color: #232b2b;
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    transition: 0.3s ease background-color;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button[type = "Submit"]:hover {
+    transition: 0.3s;
+    background-color: lightseagreen;
+    color: #232b2b;
+}
+label {
+    font-family: 'Exo 2', sans-serif;
+}
+.requestresume {
+    text-align: center;
+}
+.make_request {
+    text-align: center;
+
+}
+.make_request:hover {
+    color: #0088a9;
+}
+.links_about {
+    display: table; 
+    margin: 0 auto;
+    list-style-type: none;
+    margin-top: 25px;
+}
+.contact_container {
+    width: 60%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0,0,0.2);
+    margin: 0 auto;
+    height: 720px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gif {
+    width: 90%;
+    height: 500px;
+    border: 5px solid #0088a9;
+}
+.project_info {
+    background-position: center;
+    background-color: white;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    height: 2000px;
+    width: 80%;
+    margin-left: 200px;
+}
+.project_game_img {
+    width: 75%;
+    height: 600px;
+    border: 3px solid #474747;
+
+}
