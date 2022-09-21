@@ -22,6 +22,11 @@ header {
     text-align: center;
     list-style-type: none;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 2%;
+    z-index: 100;
     
 }
 .List li {
@@ -37,7 +42,13 @@ header {
 .List li a:hover {
     color: #0088a9;
 }
+#linkedin_icon {
+    opacity: 0.75;
+}
+#linkedin_icon:hover {
+    opacity: 0.3;
 
+}
 body {
     background-color:  #DBDCDA;
 }
@@ -65,7 +76,6 @@ p {
     float: left;
     list-style-type: none;
     margin-top: 25px;
-    margin-left: 100px;
 
 }
 .links li{
@@ -89,7 +99,7 @@ div.content {
     text-align: center;
     height: 200px;
     width: 55%;
-    margin-left: 10%;
+    margin-left: 7%;
     margin-right: 2%;
     margin-bottom: 20px;
     float: left;
@@ -129,27 +139,31 @@ div.content {
 }
 
 .email {
-    background: url(./Images/email2.png) left center no-repeat;
+    background: url(./Images/email.png) left center no-repeat;
     padding-left: 40px;
+    background-size: 30px;
+    background-size: 18% 100%;
 }
 .contacts img {
     width: 20px;
     height: 20px;
 }
 .degree {
-    background: url(./Images/degree2.png) left center no-repeat;
+    background: url(./Images/education_logo.png) left center no-repeat;
     padding-left: 40px;
+    background-size: 10px;
     color: lightseagreen;
     font-weight: bold;
+    background-size: 10% 100%;
 }
 .project {
     background-position: center;
     background-color: white;
     font-family: 'Exo 2', sans-serif;
     text-align: center;
-    height: 2000px;
+    height: 2500px;
     width: 55%;
-    margin-left: 10%;
+    margin-left: 7%;
     margin-right: 2%;
     float: left;
 
@@ -186,7 +200,7 @@ div.content {
     background-position: center;
     text-align: center;
     width: 30%;
-    height: 300px;
+    height: 370px;
     float: right;
     text-align: center; 
 
@@ -199,39 +213,58 @@ div.content {
 
 }
 .python {
-    background: url(./Images/pythonimgresized.png) left center no-repeat;
+    background: url(./Images/python.png) left center no-repeat;
+    background-size: 30px;
     background-size: auto;
     padding-left: 40px;
     color: lightseagreen;
     font-weight: bold;
+    background-size: 30% 100%;
 
 }
 .c {
-    background: url(./Images/c-logo_25x25.png) left center no-repeat;
+    background: url(./Images/c.png) left center no-repeat;
     padding-left: 40px;
+    background-size: 30px;
     color: lightseagreen;
     font-weight: bold;
+    background-size: 25% 100%;
 
 }
 .html {
-    background: url(./Images/html_25x30.png) left center no-repeat;
+    background: url(./Images/html.png) left center no-repeat;
     padding-left: 40px;
+    background-size: 30px;
     color: lightseagreen;
     font-weight: bold;
+    background-size: 25% 100%;
 
 }
 .css {
-    background: url(./Images/css_1_30x30.png) left center no-repeat;
+    background: url(./Images/css.png) left center no-repeat;
     padding-left: 40px;
+    background-size: 30px;
     color: lightseagreen;
     font-weight: bold;
+    background-size: 25% 100%;
 
 }
 .MIPS {
-    background: url(./Images/ASMIMG.png) left center no-repeat;
+    background: url(./Images/assembly.png) left center no-repeat;
+    padding-left: 40px;
+    background-size: 30px;
+    color: lightseagreen;
+    font-weight: bold;
+    background-size: 25% 100%;
+}
+.Java {
+    background: url(./Images/java_icon.png) left center no-repeat;
+    background-size: 30px;
     padding-left: 40px;
     color: lightseagreen;
     font-weight: bold;
+    background-size: 30% 100%;
+
 }
 .css-button-3d--green {
     text-decoration: none;
@@ -349,7 +382,6 @@ div.content {
     font-family: "Roboto Mono", monospace;
     border-radius: 5px;
     width: 45%;
-
 }
 #message {
     width: 45%;
@@ -422,4 +454,100 @@ label {
     height: 600px;
     border: 3px solid #474747;
 
+}
+#introduction {
+    padding: 10px;
+    white-space: pre-line;
+}
+.wiki_slider {
+    width: 100%;
+    margin-top: -80px;
+    margin-bottom: -80px;
+    height: 700px;
+    overflow: hidden;
+}
+.images {
+    width: 500%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.images input {
+    display: none;
+}
+.image {
+    width: 20%;
+    transition: 2s;
+}
+.image img {
+    width: 90%;
+    height: 500px;
+    align-items: center;
+}
+.manual {
+    position: relative;
+    width: 900px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.manual_button {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin: 10px;
+    padding: 5px;
+
+    position:absolute;
+    z-index: 20;
+}
+.manual_button:not(:last-child) {
+    margin-right: 40px;
+}
+.manual_button:hover {
+    background:#F9F9F9;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+.prev, .next {
+    cursor: pointer;
+    top: 20%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: grey;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+#marshmallow {
+    padding: 10px;
+}
+#fanpage {
+    padding: 10px;
+}
+#python_lang {
+    display:inline;
+    background: url(./Images/python.png) no-repeat;
+    background-size: 30px;
+    background-size: 2% 100%;
 }
