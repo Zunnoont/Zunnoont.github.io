@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang = "en">
     <head>
-        <title> Zunnoon Tahir | Portfolio</title>
-        <link rel="icon" type="image/x-icon" href="./Images/curr_favicon.ico?">
+        <link rel="icon" type="image/x-icon" href="./Images/favicon.ico"><title> Zunnoon Tahir | Portfolio</title>
         <link rel="stylesheet" href="./styles.css">
         <script src="main.js"></script>
-       
+
     </head>
     <header>
         <ul class = "List">
@@ -14,26 +13,30 @@
             <li><a href = "contact.html">Contact Me</a></li>
         </ul>
     </header>
+    <br>
    <body>
+        <br>
+        <br>
         <br>
         <div class = "header">
             <br>
             <br>
             <h1> Zunnoon Tahir</h1>
             <h2>Computer Science Student | Software Developer</h2>
-            
+
+            <img class = "headerimg" src = "./Images/Personalprofile.png" alt = "Profile">
              <ul class = "links">
-            <li><a href = "https://github.com/Zunnoont?tab=repositories" target = _blank><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/600px-Octicons-mark-github.svg.png" alt = "Image of github" width = 40 height = 40> </a></li>
-            <li><a href = "https://www.linkedin.com/in/zunnoon-tahir-332167210/" target = _blank><img src = "https://www.freeiconspng.com/thumbs/linkedin-logo-png/linkedin-logo-3.png" alt = "Image of github" width = 40 height = 40></a></li>
+            <li><a href = "https://github.com/Zunnoont?tab=repositories" target = _blank><img id="github_icon" src = "./Images/github_grey.png" alt = "Image of github" width = 40 height = 40> </a></li>
+            <li><a href = "https://www.linkedin.com/in/zunnoon-tahir-332167210/" target = _blank><img id="linkedin_icon" src = "./Images/linkedin.png" alt = "Image of github" width = 40 height = 40></a></li>
         </ul>
-        </div> 
-       
+        </div>
+
        <br>
        <br>
        <div class = "content">
         <br>
         <h2>About Me</h2>
-       <p> I'm an avid Computer Science student that has engaged in many personal projects during my University studies to explore my passion of Computer Science and the field of Software Engineering. I'm always curious and ready to explore new ideas and work opportunities! I hope to gain work experience from a range of companies to increase my skills as a software engineer.</p>
+       <p id="introduction"> I'm an avid Computer Science student that has engaged in many personal projects during my University studies to explore my passion of Computer Science and the field of Software Engineering. I'm always curious and ready to explore new ideas and work opportunities! I hope to gain work experience from a range of companies to increase my skills as a software engineer. </p>
        <br>
        <br>
         </div>
@@ -63,51 +66,77 @@
             <h1> Selected Projects</h1>
             <br>
             <br>
-            <h2 class = "Ptext">Wing It</h2>
+            <h2 class = "Ptext">Marshmallow Hunt</h2>
             <br>
-            <h2 >Language: Python</h2>
+            <h2 id="python_lang" >Language: Python</h2>
             <br>
-            <p> A 2d pixel-art sidescroller developed in python using the pygame module. All art and assets created by myself using drawing software</p>
+            <p id="marshmallow"> A 2d pixel-art sidescroller developed in python using the pygame module. All art and assets created by myself using drawing software Asesprite. Currently in development. </p>
             <br>
-            <img class = "gif" src = "./Images/wing_it.gif" alt = "Gif of game">
+            <video width="90%" controls autoplay>
+                <source src="./Images/Marshmallowhunt.mov" type="video/mp4">
+            </video>
             <br>
             <form action="https://github.com/Zunnoont/Wing-it">
                 <button class = "css-button-3d--green">
                     View project
                 </button>
             </form>
-            <form action="project.html">
+            <br>
+            <br>
+            <h2 class = "Ptext">Wiki Fanpage</h2>
+            <br>
+            <h2 >Language: HTML, CSS</h2>
+            <br>
+            <p id="fanpage"> Collaborated with a team of 4 to develop a wiki fanpage for the world renown webcomic Solo Leveling. Acted as an administrator of the website and worked on formatting and developing key pages such as the wiki homepage and character pages using HTML and CSS.
+            <br>
+            <br>
+            Wiki saw consistent monthly views above 100000 and at peak usage, saw 500000 viewers in a single day.
+            </p>
+            <div class = "wiki_slider">
+                <div class="images">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+
+                    <div class="image first">
+                        <img src="./images/Wiki Page Images/sololevelingwiki_image1.png" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="./images/Wiki Page Images/sololevelingwiki_image2.png" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="./images/Wiki Page Images/sololevelingwiki_image3.png" alt="">
+                    </div>
+                    <div class="auto">
+                        <div class="auto1"></div>
+                        <div class="auto2"></div>
+                        <div class="auto3"></div>
+                    </div>
+                    <div class = "manual">
+                        <label for="radio1" class="manual_button"></label>
+                        <label for="radio2" class="manual_button"></label>
+                        <label for="radio3" class="manual_button"></label>
+                    </div>
+                    <script type="text/javascript">
+                    var counter = 1;
+                    setInterval(function(){
+                        document.getElementById('radio' + counter).checked = true;
+                        counter++;
+                            if(counter > 3) {
+                                counter = 1;
+                            }
+                    }, 5000);
+                    </script>
+                </div>
+            </div>
+            <form action="https://solo-leveling.fandom.com/wiki/Solo_Leveling_Wiki">
                 <button class = "css-button-3d--green">
-                    View development information
-                </button>
-            </form>
-            <br>
-            <h2 class = "Ptext">Locked n Loaded</h2>
-            <br>
-            <h2 >Language: C</h2>
-            <br>
-            <p> A simple 2d game where players fight off enemies in various maps!</p>
-            <br>
-            <img class = "gif" src = "./Images/Locked_n_loaded.gif" alt = "Gif of game">
-            <br>
-            <form action="https://github.com/Zunnoont/Locked-n-Loaded">
-                <button class = "css-button-3d--green">
-                    View project
-                </button>
-            </form>
-            <br>
-            <h2 class = "Ptext">Calculator Bot</h2>
-            <br>
-            <h2>Language: C</h2>
-            <br>
-            <p>A scientific calculator coded in C that can so Trigonometric, factorial, </p>
-            <form action="https://github.com/Zunnoont/Calculator">
-                <button class = "css-button-3d--green">
-                    View project
+                    View website
                 </button>
             </form>
         </div>
-        <div class = "languages"> 
+
+        <div class = "languages">
             <br>
             <h2>Programming Languages i Know</h2>
             <br>
@@ -122,30 +151,31 @@
                 <li class = "css">CSS</li>
                 <br>
                 <li class = "MIPS">MIPS</li>
+                <br>
+                <li class = "Java">Java</li>
             </ul>
         </div>
-       
-       <br>
-       <br>
-       <br> 
+
        <br>
        <br>
        <br>
-       <br> 
        <br>
        <br>
        <br>
-       <br> 
        <br>
        <br>
        <br>
-       <br> 
        <br>
        <br>
        <br>
-       <br> 
        <br>
-       
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
    </body>
    <h1></h1>
 </html>
