@@ -596,6 +596,16 @@ and (max-width: 900px) {
         height: 125px;
         width: 125px;
     }
+    .image img {
+        height: 300px;
+        margin-left: 30px;
+    }
+    .wiki_slider {
+        margin-top: -175px;
+        margin-bottom: -175px;
+        height: 700px;
+        overflow: hidden;
+    }
 
 
 }
