@@ -27,7 +27,7 @@ header {
     width: 100%; /* Full width */
     height: 2%;
     z-index: 100;
-    
+
 }
 .List li {
     display: inline-block;
@@ -37,7 +37,7 @@ header {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     padding: 5px 20px;
-    
+
 }
 .List li a:hover {
     color: #0088a9;
@@ -56,7 +56,7 @@ a {
     color: #4B4B4B;
     text-decoration: none;
 }
-h1 {   
+h1 {
     text-align: center;
     color: #4B4B4B;
     font-family: "Roboto Mono", monospace;
@@ -67,7 +67,7 @@ h2 {
     color: lightslategrey;
     font-size: 1rem;
     font-family: "Roboto Mono", monospace;
-}  
+}
 p {
     font-family: "Roboto Mono", monospace;
 }
@@ -76,6 +76,7 @@ p {
     float: left;
     list-style-type: none;
     margin-top: 25px;
+    margin-left: 5%;
 
 }
 .links li{
@@ -97,7 +98,6 @@ div.content {
     background-color: white;
     font-family: 'Exo 2', sans-serif;
     text-align: center;
-    height: 200px;
     width: 55%;
     margin-left: 7%;
     margin-right: 2%;
@@ -106,7 +106,7 @@ div.content {
 }
 
 .contentleft {
-    
+
     margin-right: 40px;
     background-color: white;
     background-position: center;
@@ -125,11 +125,10 @@ div.content {
 .headerimg {
     border-radius: 50%;
     float: left;
-    margin: auto 50px;
     width: 250px;
     height: 250px;
-    padding: 10px;
-   
+    margin-left: 15%;
+
 }
 .contacts {
     display: table;
@@ -166,7 +165,6 @@ div.content {
     margin-left: 7%;
     margin-right: 2%;
     float: left;
-
 }
 .Ptext {
     color: lightseagreen;
@@ -178,8 +176,8 @@ div.content {
     margin-right: auto;
     width: 400px;
     height: 250px;
-    
-    
+
+
 }
 .Education {
     margin-right: 40px;
@@ -188,7 +186,6 @@ div.content {
     background-position: center;
     text-align: center;
     width: 30%;
-    height: 220px;
     float: right;
     text-align: center;
 
@@ -202,7 +199,7 @@ div.content {
     width: 30%;
     height: 370px;
     float: right;
-    text-align: center; 
+    text-align: center;
 
 }
 .programming {
@@ -286,7 +283,7 @@ div.content {
     text-align: center;
     vertical-align: middle;
     margin: 10px;
-    
+
     line-height: 40px;
   }
   .css-button-3d--green:hover {
@@ -342,7 +339,7 @@ div.content {
 .container {
     margin: 0 auto;
     font-family: 'Exo 2', sans-serif;
-    
+
 }
 .form-email {
     font-family: 'Exo 2', sans-serif;
@@ -420,7 +417,7 @@ label {
     color: #0088a9;
 }
 .links_about {
-    display: table; 
+    display: table;
     margin: 0 auto;
     list-style-type: none;
     margin-top: 25px;
@@ -458,6 +455,8 @@ label {
 #introduction {
     padding: 10px;
     white-space: pre-line;
+    font-size:0.75vw;
+    display: inline-block;
 }
 .wiki_slider {
     width: 100%;
@@ -545,9 +544,58 @@ label {
 #fanpage {
     padding: 10px;
 }
-#python_lang {
-    display:inline;
-    background: url(./Images/python.png) no-repeat;
-    background-size: 30px;
-    background-size: 2% 100%;
+#my_name {
+    text-align: left;
+    color: #4B4B4B;
+    font-family: "Roboto Mono", monospace;
+    font-size: 2rem;
 }
+#my_occupation {
+    text-align: left;
+    color: lightslategrey;
+    font-size: 1rem;
+    font-family: "Roboto Mono", monospace;
+}
+@media screen
+and (max-width: 900px) {
+    .project  {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    div.content {
+
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .languages {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .contentleft {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .Education {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }
+    #introduction {
+        padding: 10px;
+        font-size:0.75vw;
+    }
+
+
+}
+
+
