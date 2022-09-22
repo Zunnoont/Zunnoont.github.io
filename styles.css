@@ -148,12 +148,20 @@ div.content {
     height: 20px;
 }
 .degree {
-    background: url(./Images/education_logo.png) left center no-repeat;
+    background: url(./Images/graduation2.png) left center no-repeat;
     padding-left: 40px;
     background-size: 10px;
     color: lightseagreen;
     font-weight: bold;
-    background-size: 10% 100%;
+    background-size: 8% 88%;
+}
+.degree2 {
+    background: url(./Images/graduation2.png) left center no-repeat;
+    padding-left: 12px;
+    background-size: 10px;
+    color: lightseagreen;
+    font-weight: bold;
+    background-size: 8% 88%;
 }
 .project {
     background-position: center;
@@ -454,7 +462,6 @@ label {
 }
 #introduction {
     padding: 10px;
-    white-space: pre-line;
     display: inline-block;
 }
 .wiki_slider {
@@ -593,22 +600,159 @@ and (max-width: 900px) {
         padding: 10px;
     }
     .headerimg {
-        height: 125px;
-        width: 125px;
+        height: 150px;
+        width: 150px;
     }
     .image img {
-        height: 200px;
+        height: 240px;
+        width: 92%;
         margin-left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
     }
     .wiki_slider {
         margin-top: -175px;
         margin-bottom: -175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         height: 700px;
         overflow: hidden;
     }
 
-
 }
+@media screen
+and (max-width: 500px) {
+    .project  {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    div.content {
 
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .languages {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .contentleft {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .Education {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }
+    #introduction {
+        padding: 10px;
+    }
+    .headerimg {
+        height: 150px;
+        width: 150px;
+    }
+    .image img {
+        height: 240px;
+        width: 92%;
+        margin-left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
+    }
+    .wiki_slider {
+        margin-top: -175px;
+        margin-bottom: -175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 700px;
+        overflow: hidden;
+    }
+    #radio1:checked ~ .first{
+        margin-left: 1%;
+    }
+    .first {
+        margin-left: 1%;
+
+    }
+}
+@media screen
+and (max-width: 450px) {
+
+    .wiki_slider {
+        margin-top: -225px;
+        margin-bottom: -225px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 700px;
+        overflow: hidden;
+    }
+    #radio1:checked ~ .first{
+        margin-left: 3%;
+    }
+    .first {
+        margin-left: 3%;
+
+    }
+    .first img {
+        width: 95%;
+    }
+    .image img {
+        height: 240px;
+        width: 92%;
+        margin-left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+
+    }
+}
+@media screen
+and (max-width: 375px) {
+
+    .wiki_slider {
+        margin-top: -225px;
+        margin-bottom: -225px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 700px;
+        overflow: hidden;
+    }
+    #radio1:checked ~ .first{
+        margin-left: 4%;
+    }
+    .first {
+        margin-left: 4%;
+
+    }
+    .first img {
+        width: 95%;
+    }
+    .image img {
+        height: 240px;
+        width: 92%;
+        margin-left: 0px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+
+    }
+}
