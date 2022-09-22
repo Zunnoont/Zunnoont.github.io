@@ -455,7 +455,6 @@ label {
 #introduction {
     padding: 10px;
     white-space: pre-line;
-    font-size:0.75vw;
     display: inline-block;
 }
 .wiki_slider {
@@ -592,6 +591,10 @@ and (max-width: 900px) {
     }
     #introduction {
         padding: 10px;
+    }
+    .headerimg {
+        height: 125px;
+        width: 125px;
     }
 
 
