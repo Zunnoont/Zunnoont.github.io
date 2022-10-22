@@ -547,32 +547,32 @@ label {
 and (max-width: 900px) {
     .project  {
         float: left;
-        width: 80%;
+        width: 90%;
         margin-left: 10%;
         margin-right: 10%;
     }
     div.content {
 
         float: left;
-        width: 80%;
+        width: 90%;
         margin-left: 10%;
         margin-right: 10%;
     }
     .languages {
         float: left;
-        width: 80%;
+        width: 90%;
         margin-left: 10%;
         margin-right: 10%;
     }
     .contentleft {
         float: left;
-        width: 80%;
+        width: 90%;
         margin-left: 10%;
         margin-right: 10%;
     }
     .Education {
         float: left;
-        width: 80%;
+        width: 90%;
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 5%;
@@ -608,32 +608,32 @@ and (max-width: 900px) {
 and (max-width: 500px) {
     .project  {
         float: left;
-        width: 80%;
+        width: 90%;
         margin-left: 10%;
         margin-right: 10%;
     }
     div.content {
 
         float: left;
-        width: 80%;
+        width: 90%;
         margin-left: 10%;
         margin-right: 10%;
     }
     .languages {
         float: left;
-        width: 80%;
+        width: 90%;
         margin-left: 10%;
         margin-right: 10%;
     }
     .contentleft {
         float: left;
-        width: 80%;
+        width: 90%;
         margin-left: 10%;
         margin-right: 10%;
     }
     .Education {
         float: left;
-        width: 80%;
+        width: 90%;
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 5%;
