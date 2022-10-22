@@ -548,6 +548,7 @@ and (max-width: 900px) {
     .project  {
         float: left;
         width: 90%;
+        height: 1500px;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -609,6 +610,7 @@ and (max-width: 500px) {
     .project  {
         float: left;
         width: 90%;
+        height: 1500px;
         margin-left: 5%;
         margin-right: 5%;
     }
