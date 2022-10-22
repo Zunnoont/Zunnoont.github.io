@@ -547,34 +547,34 @@ label {
 and (max-width: 900px) {
     .project  {
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
     div.content {
 
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
     .languages {
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
     .contentleft {
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
     .Education {
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
         margin-bottom: 5%;
     }
     #introduction {
@@ -608,34 +608,34 @@ and (max-width: 900px) {
 and (max-width: 500px) {
     .project  {
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
     div.content {
 
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
     .languages {
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
     .contentleft {
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
     }
     .Education {
         float: left;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 85%;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
         margin-bottom: 5%;
     }
     #introduction {
