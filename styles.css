@@ -80,7 +80,7 @@ p {
 .links{
     float: none;
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 5px;
 
 }
 .links li{
@@ -97,12 +97,13 @@ ul li img{
 ul li img:hover {
     opacity:0.3;
 }
-div.content {
+.content {
     background-position: center;
     background-color: white;
     font-family: 'Exo 2', sans-serif;
     text-align: center;
     width: 55%;
+    border-radius: 10px;
     margin-left: 7%;
     margin-right: 2%;
     margin-bottom: 20px;
@@ -110,7 +111,7 @@ div.content {
 }
 
 .contentleft {
-
+    border-radius: 10px;
     margin-right: 40px;
     background-color: white;
     background-position: center;
@@ -122,17 +123,15 @@ div.content {
     text-align: center;
     background-position: center;
     background-color: #F9F9F9;
-    height: 370px;
+    height: 390px;
     width: 100%;
 
 }
 .headerimg {
     border-radius: 50%;
-    float: left;
-    width: 250px;
-    height: 250px;
-    margin-left: 15%;
-
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
 }
 .contacts {
     display: table;
@@ -173,6 +172,7 @@ div.content {
     font-family: 'Exo 2', sans-serif;
     text-align: center;
     height: 2500px;
+    border-radius: 10px;
     width: 55%;
     margin-left: 7%;
     margin-right: 2%;
@@ -181,19 +181,17 @@ div.content {
 .Ptext {
     color: lightseagreen;
     font-size: 20px;
-
 }
 .Lockedimg {
     margin-left: auto;
     margin-right: auto;
     width: 400px;
     height: 250px;
-
-
 }
 .Education {
     margin-right: 40px;
     margin-top: 25px;
+    border-radius: 10px;
     background-color: white;
     background-position: center;
     text-align: center;
@@ -212,6 +210,7 @@ div.content {
     height: 370px;
     float: right;
     text-align: center;
+    border-radius: 10px;
 
 }
 .programming {
@@ -536,8 +535,7 @@ label {
 #fanpage {
     padding: 10px;
 }
-#my_name {
-    text-align: left;
+.my_name {
     color: #4B4B4B;
     font-family: "Roboto Mono", monospace;
     font-size: 2rem;
