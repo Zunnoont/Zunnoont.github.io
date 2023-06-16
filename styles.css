@@ -9,6 +9,11 @@ header {
     justify-content: space-between;
 
 }
+video {
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+}
 *{
     margin: 0;
     padding: 0;
