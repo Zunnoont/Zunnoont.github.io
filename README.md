@@ -1,2 +1,2 @@
 # Zunnoont.github.io
-Personal website developed from scratch using html and css.
+Personal website developed to showcase my personal portfolio and achievements.
