@@ -257,7 +257,7 @@ ul li img:hover {
     font-weight: bold;
 }
 .c {
-    background: url(./Images/c.png) left center no-repeat;
+    background: url(./Images/C_logo.png) left center no-repeat;
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -655,6 +655,24 @@ label {
     color: lightslategrey;
     font-size: 1rem;
     font-family: "Roboto Mono", monospace;
+}
+@media screen 
+and (min-width: 2060px) {
+    .project {
+        height: 2900px;
+    }
+}
+@media screen 
+and (min-width: 2560px) {
+    .project {
+        height: 3200px;
+    }
+}
+@media screen 
+and (min-width: 3540px) {
+    .project {
+        height: 3500px;
+    }
 }
 @media screen
 and (max-width: 900px) {
