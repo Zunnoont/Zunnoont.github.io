@@ -180,6 +180,7 @@ ul li img:hover {
     margin-left: 7%;
     margin-right: 2%;
     float: left;
+    margin-bottom: 2%;
 }
 .Ptext {
     color: lightseagreen;
@@ -203,6 +204,18 @@ ul li img:hover {
     text-align: center;
 
 }
+.Jobs {
+    margin-right: 40px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+    background-position: center;
+    text-align: center;
+    width: 30%;
+    float: right;
+    text-align: center;
+    clear: right;
+}
 .languages {
     margin-right: 40px;
     margin-top: 25px;
@@ -216,12 +229,23 @@ ul li img:hover {
     border-radius: 10px;
 
 }
+.databases {
+    margin-right: 40px;
+    margin-top: 25px;
+    background-color: white;
+    background-position: center;
+    text-align: center;
+    width: 30%;
+    height: 435px;
+    float: right;
+    text-align: center;
+    border-radius: 10px;
+}
 .programming {
     display: table;
     margin: 0 auto;
     line-height: 1.5;
     list-style: none;
-
 }
 .python {
     padding-top: 10px;
@@ -286,8 +310,51 @@ ul li img:hover {
     padding-left: 40px;
     color: lightseagreen;
     font-weight: bold;
-
-
+}
+.SQL {
+    background: url(./Images/sql_server.png) left center no-repeat;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: 30px 30px;
+    color: lightseagreen;
+    font-weight: bold;
+}
+.PostgreSQL {
+    background: url(./Images/Postgresql_elephant.png) left center no-repeat;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: 30px 30px;
+    color: lightseagreen;
+    font-weight: bold;
+}
+.pandas {
+    background: url(./Images/pandas_logo.png) left center no-repeat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: 30px 30px;
+    padding-left: 40px;
+    color: lightseagreen;
+    font-weight: bold;
+}
+.SQLAlchemy {
+    background: url(./Images/python_pixel.png) left center no-repeat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: 30px 30px;
+    padding-left: 40px;
+    color: lightseagreen;
+    font-weight: bold;
+}
+.R {
+    background: url(./Images/R_logo.png) left center no-repeat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: 30px 30px;
+    padding-left: 40px;
+    color: lightseagreen;
+    font-weight: bold;
 }
 .css-button-3d--green {
     text-decoration: none;
@@ -489,6 +556,13 @@ label {
     height: 700px;
     overflow: hidden;
 }
+.wiki_slider_2 {
+    width: 100%;
+    margin-top: -80px;
+    margin-bottom: -80px;
+    height: 770px;
+    overflow: hidden;
+}
 .images {
     width: 500%;
     height: 100%;
@@ -507,6 +581,15 @@ label {
     height: 500px;
     align-items: center;
 }
+.slider2_image {
+    width: 20%;
+    transition: 2s;
+}
+.slider2_image img {
+    width: auto;
+    max-height: 600px;
+    align-items: center;
+}
 .manual {
     position: relative;
     width: 900px;
@@ -521,6 +604,18 @@ label {
     margin-left: -20%;
 }
 #radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#slider2-1:checked ~ .first {
+    margin-left: 0;
+}
+
+#slider2-2:checked ~ .first {
+    margin-left: -20%;
+}
+
+#slider2-3:checked ~ .first {
     margin-left: -40%;
 }
 .prev, .next {
@@ -566,12 +661,11 @@ and (max-width: 900px) {
     .project  {
         float: left;
         width: 90%;
-        height: 1500px;
+        height: 2050px;
         margin-left: 5%;
         margin-right: 5%;
     }
     div.content {
-
         float: left;
         width: 90%;
         margin-left: 5%;
@@ -582,6 +676,13 @@ and (max-width: 900px) {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .databases {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
     }
     .contentleft {
         float: left;
@@ -596,6 +697,12 @@ and (max-width: 900px) {
         margin-right: 5%;
         margin-bottom: 5%;
     }
+    .Jobs {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
     #introduction {
         padding: 10px;
     }
@@ -604,13 +711,16 @@ and (max-width: 900px) {
         width: 150px;
     }
     .image img {
-        height: 240px;
+        height: 300px;
         width: 92%;
         margin-left: 0px;
         display: block;
         margin-left: auto;
         margin-right: auto;
 
+    }
+    .slider2_image img {
+        height: 350px;
     }
     .wiki_slider {
         margin-top: -175px;
@@ -621,14 +731,22 @@ and (max-width: 900px) {
         height: 700px;
         overflow: hidden;
     }
-
+    .wiki_slider_2 {
+        margin-top: -175px;
+        margin-bottom: -175px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 725px;
+        overflow: hidden;
+    }
 }
 @media screen
 and (max-width: 500px) {
     .project  {
         float: left;
         width: 90%;
-        height: 1500px;
+        height: 2000px;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -640,6 +758,12 @@ and (max-width: 500px) {
         margin-right: 5%;
     }
     .languages {
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .databases {
         float: left;
         width: 90%;
         margin-left: 5%;

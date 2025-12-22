@@ -112,25 +112,17 @@
                     <div class="image">
                         <img src="./Images/Wiki_page_images/sololevelingwiki_image3.png" alt="">
                     </div>
-                    <div class="auto">
-                        <div class="auto1"></div>
-                        <div class="auto2"></div>
-                        <div class="auto3"></div>
-                    </div>
-                    <div class = "manual">
-                        <label for="radio1" class="manual_button"></label>
-                        <label for="radio2" class="manual_button"></label>
-                        <label for="radio3" class="manual_button"></label>
-                    </div>
-                    <script type="text/javascript">
-                    var counter = 1;
-                    setInterval(function(){
-                        document.getElementById('radio' + counter).checked = true;
-                        counter++;
-                            if(counter > 3) {
-                                counter = 1;
-                            }
-                    }, 5000);
+                    <script>
+                    (function () {
+                        const slider = document.currentScript.closest('.wiki_slider');
+                        const radios = slider.querySelectorAll('input[type="radio"]');
+                        let index = 0;
+
+                        setInterval(() => {
+                            radios[index].checked = true;
+                            index = (index + 1) % radios.length;
+                        }, 5000);
+                    })();
                     </script>
                 </div>
             </div>
@@ -139,11 +131,70 @@
                     View website
                 </button>
             </form>
+            <br>
+        <h2 class = "Ptext">Pixel Weather</h2>
+        <br>
+        <h2 id="python_lang" >Language: Java, XML</h2>
+        <br>
+        <p id="marshmallow"> Bored of the usual weather app? Try out this aesthetic pixel weather app crafted exclusively in Android Studio. All assets were drawn by myself in Asesprite. </p>
+        <div class="wiki_slider_2">
+            <div class="images">
+                <input type="radio" name="slider2" id="slider2-1" checked>
+                <input type="radio" name="slider2" id="slider2-2">
+                <input type="radio" name="slider2" id="slider2-3">
+                <div class="slider2_image first">
+                    <img src="Images/Android_app_images/android_app_img1.png" alt="">
+                </div>
+                <div class="slider2_image">
+                    <img src="Images/Android_app_images/android_app_img2.png" alt="">
+                </div>
+                <div class="slider2_image">
+                    <img src="Images/Android_app_images/android_app_img3.png" alt="">
+                </div>
+            </div>
+            <script>
+            (function () {
+                const slider = document.currentScript.closest('.wiki_slider_2');
+                const radios = slider.querySelectorAll('input[type="radio"]');
+                let index = 0;
+
+                setInterval(() => {
+                    radios[index].checked = true;
+                    index = (index + 1) % radios.length;
+                }, 5000);
+            })();
+            </script>
         </div>
+            <br>
+            <form action="https://github.com/Zunnoont/Pixel_weather">
+                <button class = "css-button-3d--green">
+                    View project
+                </button>
+            </form>
+        </div>
+
+        <div class = "Jobs">
+           <br>
+           <h2>Work Experience</h2>
+           <ul class = "contacts">
+               <li class = "degree">Graduate Software Engineer</li>
+               <p>Oberix Group</p>
+               <p>Apr 2025 - Present</p>
+               <br>
+               <li class = "degree2">Network Support Officer</li>
+               <p>Counsels Chambers Limited</p>
+               <p>Jan 2024 - Apr 2024</p>
+               <br>
+               <li class = "degree2">ICT Intern</li>
+               <p>Counsels Chambers Limited</p>
+               <p>Aug 2023 - Jan 2024</p>
+               <br>
+           </ul>
+       </div>
 
         <div class = "languages">
             <br>
-            <h2>Languages i Know</h2>
+            <h2>Programming Languages i Know</h2>
             <br>
             <br>
             <ul class = "programming">
@@ -163,26 +214,23 @@
             </ul>
         </div>
 
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
-       <br>
+        <div class = "databases">
+            <br>
+            <h2>Data Analytics tools I'm proficient with</h2>
+            <br>
+            <br>
+            <ul class = "programming">
+                <li class = "SQL">SQL Server</li>
+                <br>
+                <li class ="PostgreSQL">PostgreSQL</li>
+                <br>
+                <li class = "pandas"> Pandas</li>
+                <br>
+                <li class="SQLAlchemy">SQLAlchemy</li>
+                <br>
+                <li class="R">R</li>
+            </ul>
+        </div>
    </body>
    <h1></h1>
 </html>
