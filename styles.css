@@ -169,6 +169,25 @@ ul li img:hover {
     background-size: 12% 120%;
     image-rendering: -webkit-optimize-contrast;
 }
+
+.job {
+    background: url(./Images/job_icon.png) left center no-repeat;
+    padding-left: 40px;
+    background-size: 30px;
+    color: lightseagreen;
+    font-weight: bold;
+    background-size: 12% 120%;
+    image-rendering: -webkit-optimize-contrast;
+}
+.job2 {
+    background: url(./Images/job_icon.png) left center no-repeat;
+    padding-left: 12px;
+    background-size: 10px;
+    color: lightseagreen;
+    font-weight: bold;
+    background-size: 12% 120%;
+    image-rendering: -webkit-optimize-contrast;
+}
 .project {
     background-position: center;
     background-color: white;
@@ -266,7 +285,7 @@ ul li img:hover {
     font-weight: bold;
 }
 .html {
-    background: url(./Images/html.png) left center no-repeat;
+    background: url(./Images/html5.png) left center no-repeat;
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -275,7 +294,7 @@ ul li img:hover {
     font-weight: bold;
 }
 .css {
-    background: url(./Images/css.png) left center no-repeat;
+    background: url(./Images/css3.png) left center no-repeat;
     padding-left: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
